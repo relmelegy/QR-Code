@@ -31,7 +31,7 @@ async function generateQRFromURL() {
 
   // Step 3: Save user input to a text file
   fs.writeFileSync('URL.txt', url);
-  console.log('User input saved to userInput.txt');
+  console.log('User input saved to URL.txt');
 }
 
 generateQRFromURL().catch(console.error);
