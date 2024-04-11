@@ -1,1 +1,1 @@
-barkbox.com
+https://github.com/relmelegy/QR-Code
