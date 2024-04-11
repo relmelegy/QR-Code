@@ -1,6 +1,5 @@
 async function main() {
   const inquirer = await import('inquirer');
-  
   const qr = require('qr-image');
   const fs = require('fs');
 
