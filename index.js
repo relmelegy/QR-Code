@@ -30,7 +30,7 @@ async function generateQRFromURL() {
   console.log('QR code generated successfully: QRCode.png');
 
   // Step 3: Save user input to a text file
-  fs.writeFileSync('userInput.txt', url);
+  fs.writeFileSync('URL.txt', url);
   console.log('User input saved to userInput.txt');
 }
 
