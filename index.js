@@ -6,7 +6,7 @@ async function main() {
 
   async function generateQRFromURL() {
       // Step 1: Get user input for URL
-      // Note the change here to `inquirer.default.prompt`
+
       const answers = await inquirer.default.prompt([
           {
               type: 'input',
@@ -36,7 +36,6 @@ async function main() {
       console.log('User input saved to URL.txt');
   }
 
-  // Don't forget to call your `generateQRFromURL` function
   await generateQRFromURL();
 }
 
