@@ -22,7 +22,6 @@ async function main() {
               },
           },
       ]);
-
       const { url } = answers;
 
       // Step 2: Generate QR code
