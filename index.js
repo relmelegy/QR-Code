@@ -6,7 +6,6 @@ async function main() {
 
   async function generateQRFromURL() {
       // Step 1: Get user input for URL
-
       const answers = await inquirer.default.prompt([
           {
               type: 'input',
